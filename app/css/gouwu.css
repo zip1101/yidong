@@ -1,0 +1,154 @@
+ul,img,body,p,span,i{
+
+	padding:0;
+	margin:0;
+}
+p,span,i,img{display: block;
+}
+a{ text-decoration: none; }
+.top{
+	width: 3.75rem;
+	height: 2.7rem;
+/*	background-color: yellow;*/
+	position: relative;
+}
+.top1{
+	width: 3.75rem;
+	height: 0.4rem;
+	background-color: #009cff;
+}
+.top1 p{
+	font-size: 0.2rem;
+	font-weight: 700;
+	color: #fff;
+	width: 0.6rem;
+	height: 0.2rem; 
+	margin:0 auto;
+	padding-top: 0.09rem;
+
+}
+.top1 i{
+	
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color: #0090ff;
+	position: absolute;
+		top:0.15rem;
+		left: 0.15rem;
+		margin:0 auto;
+		color: #fff;
+		font-size: 0.2rem;
+}
+.top .list{
+		width: 3.75rem;
+		height: 0.47rem;
+		border: 0.01rem solid #f1f1f1;
+		position: relative;
+
+}
+.list p{
+		font-size: 0.16rem;
+		line-height: 0.48rem;
+		margin-left: 0.15rem;
+}
+.list i{
+	font-size: 0.2rem;
+	position: absolute;
+	top:0.14rem;
+	left: 1.88rem;
+	
+}
+
+.top .list2 {
+	width:3.75rem;
+	height: 0.72rem;
+	position: relative;
+	/*top:0.14rem;
+	left: 1.88rem;*/
+	border-bottom: 0.01rem solid #f1f1f1;
+	
+}
+.list2 i{
+	position: absolute;
+	top:0.12rem;
+	right:0.15rem;
+}
+.list2 img{
+	width: 0.48rem;
+	height: 0.48rem;
+	margin-left:0.15rem;
+	margin-top:0.17rem;
+}
+.list2 span{
+	color: red;
+	font-size: 0.09rem;
+	float: right;
+	margin-right: 0.15rem;	
+}
+.list2 span:nth-child(2){
+	margin-right: 0.09rem;
+	font-size: 0.15rem;
+}
+.ch{
+	width: 3.75rem;
+	height: 0.59rem;
+	border-bottom:0.01rem #f1f1f1 solid;
+}
+.ch span{
+	line-height: 0.6rem;
+	font-size: 0.16rem;
+	margin-left: 0.15rem;	
+}
+.ch p{
+	font-size: 0.09rem;
+	color: red;
+	float: right;
+	margin-top: -0.2rem;
+	margin-right: 0.15rem;
+}
+.ch p:nth-child(2){
+	margin-right: 0.1rem;
+}
+.zx{
+   width: 	3.75rem;
+   height: 0.49rem;
+   border-bottom:0.01rem #f1f1f1 solid;
+}
+.zx .mo{
+	font-size:0.16rem ;
+	width:1.5rem;
+	height:0.16rem ;
+	line-height:0.5rem;
+	margin-left:0.15rem;
+}
+.fuqian{
+	width:3.75rem;
+	height: 0.45rem ;
+}
+.fuqian .fq{
+	width: 0.6rem;
+	height: 0.16rem;
+	font-size: 0.16rem;
+}
+.fuqian span{
+	font-size: 0.15rem;
+}
+
+
+
+.fuqian .js{
+	width: 0.64rem;
+	height: 0.33rem;
+	background-color: green;
+	float: right;
+	margin-top: -0.3rem;
+	margin-right: 0.12rem;
+}
+.js span{
+	text-align: center;
+	margin:0 auto;
+}
+.wg{	width: 3.75rem;
+	height:2.25rem;
+	background-color: #f1f1f1;
+}

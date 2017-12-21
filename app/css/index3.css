@@ -1,0 +1,215 @@
+body,ul,li,div,span,p,img{
+	padding:0;
+	margin:0;
+}
+body{
+	font-size: 0.16rem;
+}
+p{
+	display: block;;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.title_1{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 3.75rem;
+	background-color: #859352;
+	height: 0.4rem;
+	position: relative;
+}
+.title{
+	width:  3.75rem;
+	height: 1.42rem;
+	background-color: #859352;
+}
+.title_1 i{
+	font-size: 0.2rem;
+	position: absolute;
+	top: 0.08rem;
+	left: 0.16rem; 
+	color: #fff;     
+}
+.title_1 b{
+	font-size: 0.2rem;
+	position: absolute;
+	top: 0.08rem;
+	right: 0.16rem;
+	color: #fff;
+}
+.title .shang{
+	width: 3.75rem;
+	height: 1.02rem;
+	position: relative;
+}
+.title .shang img{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-left: 0.15rem;
+border:0.01rem solid #ccc;
+}
+.shang span{
+	font-size: 0.12rem;
+}
+.title .shang .biao{
+	font-size: 0.2rem;
+	width: 2.75rem;
+	height: 0.7rem;
+	/*background-color: green;*/
+	position: absolute;
+	top:0.02rem;
+	right: 0;
+	display: flex;
+	justify-content: flex-start;
+	/*flex-grow: 1;*/
+	flex-wrap: wrap;
+	color: #fff;
+
+}
+.biao p{
+		font-weight: 700;
+}
+.biao .a1{
+}
+
+.biao .a3{
+/*	width: 2.4rem;
+	height: 0.12rem;*/
+	font-size: 0.12rem;
+}
+.shang .a4{
+	font-size: 0.12rem;
+	display: flex;
+	justify-content: space-around;
+     line-height: 0.3rem;
+     color: #fff;
+     position: relative;
+}
+.a4 .jian{
+		font-size: 0.12rem;
+   background-color: red;
+   position: absolute;
+   top:0.09rem;
+   left: 0.12rem;
+   line-height: 0.12rem;
+}
+
+.list{
+	background-color: white;
+	width: 100%;
+	height: 0.4rem;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.list a{
+	display: block;
+	float: left;
+	width: 33.33%;
+	height: 100%;
+	color: #666;
+	text-align: center;
+	line-height: 0.36rem;
+}
+.list span{
+	display: inline-block;
+	font-size: 0.15rem;
+	margin-bottom: 0.01rem solid;
+	font-weight: 700;
+	line-height: 0.36rem;
+}	
+.list a:hover{
+	color: #3190e8;
+}
+.list a:hover span{
+	border-bottom: 0.02rem solid #2395ff;
+}
+
+.ps .song{
+	font-size: 0.16rem;
+	
+}
+.ps .dz{
+	font-size: 0.12rem;
+	margin-top: 0.1rem;
+	color: #666;
+}
+.ps .mon{
+	font-size: 0.12rem;
+   margin-top: 0.1rem;
+color: #666;
+}
+.hui{
+  
+	height: 0.1rem;
+	background-color: #ccc;
+	
+}
+.ps{
+padding: 0.2rem 0.15rem;
+}
+.ps .red{
+	background-color: red;
+}
+.ps .green{
+	background-color: green;
+}
+.ps .pink{
+	background-color: pink;
+}
+.ps .gray{
+	border:1px solid #ccc;
+}
+.ps .dz .jx{
+	width: 0.7rem;
+	height: 0.7rem;
+	padding-bottom: 0.2rem; 
+}
+.clear{
+	clear:both;
+}
+.cont{
+	/*height: 3.75rem;*/
+}
+.cont .cont1{
+
+	font-size: 0.16rem;
+	font-weight: 700;
+}
+.cont .cont2{
+	font-size: 0.14rem;
+	margin:0.15rem;
+}
+.cont  .cont1{
+	margin:0.16rem 0.15rem 0;
+}
+.xihui{
+	width: 3.75rem;
+	height:0.01rem;
+	border-bottom: 0.01rem solid #ccc;																																																																																																																																																																																																																																																																																																																																											
+}
+.cont3{
+	 
+	font-size: 0.14rem;
+	margin:0.15rem;
+
+}
+.cont3 span:first-child{
+
+font-weight: 700;
+font-size: 0.14rem;
+	margin:0.15rem;
+	
+
+}
+.cont3  span:last-child{
+	font-size: 0.14rem;
+	margin:0.15rem;
+	text-align: right;
+	
+}
